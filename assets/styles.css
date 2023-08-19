@@ -8,15 +8,18 @@ h2{
     display: inline;
 }
 #menor{
-    display: inline;
+    display: none;
 }
 #mayor{
-    display: inline;
+    display: none;
 }
 #correcto{
-    display: inline;
+    display: none;
+}
+#reload{
+    display: none;
 }
 .row-info {
-    background-color: #a73d7e;
+    background-color: #d659a7;
     border-radius: 20px;
 }
