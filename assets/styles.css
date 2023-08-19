@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#inicio{
+    display: inline;
+}
+#menor{
+    display: inline;
+}
+#mayor{
+    display: inline;
+}
+#correcto{
+    display: inline;
+}
+.row-info {
+    background-color: #a73d7e;
+    border-radius: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Adivino tu número!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div class="row justify-content-center align-items-center my-5 p-5 row-info">
+    <div class="col-9">
+    <h1>¡Adivino tu número!</h1>
+    <h2 id="pregunta">¿Estás listo?</h2>
+    <div class="col-12 text-center p-4" id="buttons">
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+          <button id="inicio" onclick="iniciar()" type="button" class="btn btn-danger">¡Iniciar!</button>
+        </div>
+      </div>
+      <div class="col-12 text-center p-4" id="buttons">
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+          <button id="menor" onclick="menorQue()" type="button" class="btn btn-warning">Es menor</button>
+          <button id="correcto" onclick="confirmar()" type="button" class="btn btn-success">¡Es correcto!</button>
+          <button id="mayor" onclick="mayorQue()" type="button" class="btn btn-warning">Es mayor</button>
+        </div>
+        <div class="col-12 text-center p-4" id="buttons">
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button id="reload" onclick="reiniciar" type="button" class="btn btn-dark">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
